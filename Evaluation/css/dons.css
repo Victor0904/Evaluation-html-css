@@ -1,0 +1,160 @@
+/* page de contact*/
+
+header{
+  border-bottom: 0.09em solid black;
+  text-align: center;
+  padding: 0.4 0;
+  min-width: 100%;
+  max-height: 100%;
+  color: black;
+  padding: 3px;
+  font-size: 20px;
+  margin-bottom: 50px;
+
+}
+.nav{
+ text-align: center;
+   display: block;
+
+   justify-content: space-evenly;
+   color: black;
+   text-decoration: none;   
+   margin-left: -20px;
+}
+
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+.nav ul{
+    list-style-type: none;
+}
+
+body{
+   background-color: #FEFEE2;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 100px;
+    padding: 1 1 1 1 ;
+
+
+    
+}
+
+.card {
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
+    text-align: justify;
+    box-shadow: -12px -6px 27px 2px rgba(0,0,0,0.4);
+    padding: 7px;
+}
+
+
+.card img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+.from {
+  margin: 0px;
+  padding: 0px;
+  background-color: #FEFEE2;;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+ 
+}
+
+form {
+  padding: 30px;
+  background-color: #FEFEE2;;
+  border-radius: 10px;
+}
+form h1 {
+  font-size: 20px;
+}
+form .separation {
+  width: 100%;
+  height: 1px;
+  background-color: #747cdf;
+}
+form .corps-formulaire {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+form .corps-formulaire .groupe {
+  position: relative; 
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+form .corps-formulaire .gauche .groupe input {
+  margin-top: 5px;
+  padding: 10px 5px 10px 30px;
+  border: 1px solid #c9c9c9;
+  outline-color: #747cdf;
+  border-radius: 5px;
+}
+form .corps-formulaire .gauche .groupe i {
+  position: absolute; 
+  left: 0;
+  top: 25px;
+  padding: 9px 8px;
+  color: #747cdf;
+}
+form .corps-formulaire .droite {
+  margin-left: 40px;
+}
+form .corps-formulaire .droite .groupe {
+  height: 100%;
+}
+form .corps-formulaire .droite .groupe textarea {
+  margin-top: 5px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: 2px solid #747cdf;
+  outline: none;
+  border-radius: 5px;
+  resize: none;
+  height: 20%;
+}
+form .pied-formulaire button {
+  margin-top: 10px;
+  background-color: #747cdf;
+  color: white;
+  font-size: 15px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+form .pied-formulaire button:hover {
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 920px) {
+  form .corps-formulaire .droite {
+    margin-left: 0px;
+  }
+}
+

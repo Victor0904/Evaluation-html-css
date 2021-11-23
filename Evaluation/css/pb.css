@@ -1,0 +1,38 @@
+body{
+
+
+ background-color:#FEFEE2 ;
+}
+h1{
+  text-align: center;
+}
+.main{
+    display: flex;
+    flex-flow: row wrap;
+}
+.pb{
+   opacity: 1;
+   cursor: pointer;
+   background-color: red;
+   border: 5px solid lightpink;
+   border-radius: 8px;
+   margin: 20px;
+   padding: 20px;
+   color: white;
+   font-size: 24px;
+   text-align: center;
+ }
+
+ .sol{
+    
+   opacity: 1;
+   cursor: pointer;
+   background-color: green;
+   border: 5px solid lightgreen;
+   border-radius: 8px;
+   margin: 20px;
+   padding: 20px;
+   color: white;
+   font-size: 24px;
+   text-align: center;
+ }
